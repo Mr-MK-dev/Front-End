@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(purple, yellow);
+    height: 100vh;
+    font-size: 30px ;
+    font-weight: 700;
+}
+
+header {
+    justify-content:space-between;
+    display:flex;
+    height: 10%;
+    border: solid red;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+main{
+    border: solid red;
+    border-radius: 3px;
+}
+
+main .title{
+    padding-left: 30%;
+}
+main .parent{
+    display:flex;
+    justify-content:space-between;
+    padding: 20px;
+}
+main .showbox{
+    padding-left: 40%;
+    background-color:red;
+    font-size: 30px;
+}
+main .enterNumber{
+    height: 100px;
+}
+
+.last{
+    justify-content: space-between;
+    display:flex;
+    padding: 20px
+}
+ /* .score{
+    background: rgba(16, 180, 30, 0.897);
+}  */
